@@ -1,0 +1,23 @@
+{
+  "name": "app-name",
+  "version": "1.0.0",
+  "description": "app-description",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html",
+    "format": "xo --fix",
+    "lint": "xo"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "xo": "^0.32.0"
+  },
+  "license": "MIT",
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "xo": {
+    "prettier": true
+  }
+}
